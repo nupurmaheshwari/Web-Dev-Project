@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Nupur Maheshwari">
+	<meta name="description" content="Prantl's Bakery Website">
+
+	<link rel="stylesheet" media="all" type="text/css" href="prantls css/prantls styles.css" />
+	<link rel="stylesheet" media="all" type="text/css" href="prantls css/jquery-ui.css" />
+	<link rel="stylesheet" media="all" type="text/css" href="prantls css/jquery.lightbox.css" />
+
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js" ></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox.min.js" ></script>
+</head>
+
+<style>
+</style>
+
+<body>
+	<div class="full-width-background">
+	   		<a href="welcome.html"><img class="resize" src="images/logo.png"/>
+			<div id="nav_bar">
+				<header>
+					<nav>
+						<a href="Prantl's Home.html">Home</a>
+						<a href="storeInfo.html">Store Info</a>
+						<a href="sales_data.html">Sales and Data</a>
+						<a href="services.html">Services</a>
+						<a href="contact.html">Contact Us</a>
+					</nav>
+				</header>
+			<div id="side">
+				Read More About Us!</br>
+				<a href="http://www.huffingtonpost.com/2014/04/14/prantls-torte-cake-almond_n_5133580.html">Huffington Post</a></br>
+				<a href="https://www.yelp.com/biz/prantls-bakery-pittsburgh">Yelp Reviews</a>
+			</div>
+		</div>
+	</div>
+	<figure>
+	    <img class=scaled src="images/Bakery.jpg" alt="Photo"/>
+	    <figcaption>Contact Us</figcaption>
+	</figure></br>
+
+	<div id="content">
+		<h1>Visitor Inquiries</h1>
+		<form action="mailto:infoneeded@prantlsbakery.com." onsubmit="return validate()" style ="width:35%">
+		<fieldset>
+			<legend align="center"><font color=black><b>Please fill out this form!</b></font></legend>
+			<b>Name:*</b><br/>
+			<input type ="text" name="Name" id="Name"
+			placeholder="Your Name" size="20" maxlength="250" required>
+			<br/><br/>
+	  		<b>Zip Code:</b><br/>
+	  		<input type="text" id="zip" 
+			placeholder="00000" minlength=5  maxlength=5><br/><br/>
+			<b>Email Address:*</b><br/>
+	  		<input type ="email" name="email" id="email"
+			required placeholder="abc@efg.com" required><br/><br/>
+			<b>Inquiry:</b><br/>
+			<textarea rows="10" cols="50" name="comment" form="usrform" 
+			maxlength="1000"></textarea><br/><br/>
+	  		<b>Would you like to subscribe to Prantl's mailing list?</b><br>
+	  		<input type="checkbox" name="update" value="yes"><b>Yes!</b><br><br>
+	  		<button type="submit"><img class=resiz src="images/submit.png"></button>
+		</fieldset>
+			<p>Required fields are indicated by *</p>
+	</form>
+	
+
+	</div>
+
+	</div id="bottom">
+		<footer>
+			<div class="full-width-back">
+			<h3><a href="https://www.facebook.com/PrantlsBakery/"><img class="resized" src="images/facebook-2.png"></a>
+			<a href="https://www.instagram.com/prantls_bakery/"><img class="resized" src="images/instagram-2.png"></a>
+			<a href="https://twitter.com/prantlsbakery?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="resized" src="images/twitter-2.png"></a><br/>
+			2017 &copy; Copyright Prantl's Bakery</br>
+			Privacy and Security</h3>
+		</footer>
+	</div>
+</body>
+
+
+</html>
+
